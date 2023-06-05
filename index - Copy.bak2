@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Andy Lister's Tech Transfer Pages</title>
+<style>
+body {
+background-color: #f0f0f0;
+font-family: Arial, sans-serif;
+color: #006400;
+}
+h1 {
+font-size: 36px;
+font-weight: bold;
+text-align: center;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+p {
+color: #006400;
+}
+table {
+margin: 0 auto;
+border-collapse: collapse;
+width: 80%;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+th, td {
+padding: 10px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+color:006400;
+}
+th {
+background-color: #006400;
+color: #fff;
+}
+img {
+display: block;
+margin: 0 auto;
+max-width: 50%;
+height: auto;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.disclaimer {
+font-size: 18px;
+font-weight: bold;
+font-style: italic;
+text-align: left;
+margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<h1>Andrew Lister's Tech Transfer Pages</h1>
+<p>I am an afficionado of sampling statistics, remote sensing, and all things forest monitoring. I have provided the below tools in case people who work in these areas might find them useful. Please let me know (andylister100 at gmail.com) if you have any suggestions, comments, or find errors! NOTE: As of 2023, I am slowly transitioning my content to this new site, so stand by and I will be adding more of my tools and demos. </p>
+<img src="./andy.jpg" alt="Andy Lister picture">
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./tools/confidence_interval_experiment.xlsx">Confidence Interval Demo</a></td>
+<td>A spreadsheet tool that gives an intuitive sense of how confidence intervals relate to sampling variability.</td>
+</tr>
+<tr>
+<td><a href="./tools/CV_explorer_tool_effects_required_precision_on_sample_size.xlsx">CV Explorer</a></td>
+<td>A tool that allows users who plan inventories to assess the impacts of sample CV, required precision (E%, as a percentage of the estimate) and confidence level desired for a confidence interval. It is in English, Spanish and French.</td>
+</tr>
+<tr>
+<td><a href="./tools/demonstration_covariance_aggregating_pools_need_covariance_or_differencing_stocks.xlsx">Covariance Demo</a></td>
+<td>A simple demonstration of the relationship between the variance of an estimate from calculating per-plot sum or difference values and then calculating their variance vs. calculating that from calculating the totals of 2 different pools and including the covariance. </td>
+</tr>
+<tr>
+<td><a href="./tools/RapidPhotointerpretationTemplate.zip">Rapid Photointerpretation Method Demo</a></td>
+<td>MS Access file and Python code for setting up a rapid photointerpretation project in MS Access, using ArcMap to prepare files. It's basically an offline, primordial version of Collect Earth (https://www.collect.earth/)</td>
+</tr>
+<!-- To add new table entries, do the following. Under the "tr" above, paste the following:
+<tr>
+<td><a href=Paste link to tool you want (including quotes), e.g., "./tools/test.xlsx" if it's at the same level as the index.html in the tools directory>Paste text you want to show for the link</a></td>
+<td> Paste description of the link here.</td>
+</tr> -->
+</tbody>
+</table>
+<p class="disclaimer">Disclaimer: The views reflected in this video are solely my own personal views, based upon publicly available data, and do not necessarily reflect the views of the US Department of Agriculture or the United States Government.</p>
+</body>
+</html>
