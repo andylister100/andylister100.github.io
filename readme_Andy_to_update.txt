@@ -1,3 +1,3 @@
-In github desktop, wait for it to synchronize with the remote site. Edit and save the html file, e.g., in Visual Studio Code. Then type a Summary (lower left) next to the green icon, and hit "commit to main". After it commits, then "push" the local file(s) to the remote directory.  It might take a few minutes to push and update at andylister100.github.io/
+In github desktop, wait for it to synchronize with the remote site. Edit and save the html file, e.g., in Notepad++, which is nice, or Visual Studio Code. Then type a Summary (lower left) next to the green icon, and hit "commit to main". After it commits, then "push" the local file(s) to the remote directory.  It might take a few minutes to push and update at andylister100.github.io/
 
 2023, andylister100@gmail.com
